@@ -1,6 +1,6 @@
 # Author Response to our submitted paper "Leveraging Translationese in Pretraining Quality Estimation Models"
 
-## Reponse to Reviewer3
+## Response to Reviewer3
 Q1. Is a parallel corpus either source-original or target-original? 
 >Following the reviewer's suggestions, we conduct an in-depth analysis of the parallel dataset we used for QE data augmentation. The parallel dataset includes several corpora from different domains, and indeed some of them have no obvious translation direction. 
 
