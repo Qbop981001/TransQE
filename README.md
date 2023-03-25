@@ -71,3 +71,12 @@ Following reviwer#2's advice, we randomly sample 100 sentence pairs from WiKiMat
 <img src="sample-raw-human.jpg" width="600px">
 
 The image shows a visualization of target-side sentence embedding (embedding of \[CLS\] token) produced by a **unfinetuned** BERT model. We can still differentiate sentence pairs with explicit s-o or t-o translation direction.
+
+### Visualized attention weight 
+
+We want to prove that the superior performance and efficient training of our PLM-based classifier come from the fact that PLM catches certain named entities in the input sentence that are frequently used in the corresponding language. Thus we visualize the attention weight
+
+<img src="attention_sample.png" width="600px">
+
+The annotated item "中新网" is the name of a Chinese media, which helps the model to figure out that the original language of the sentence is Chinese.
+
