@@ -76,7 +76,7 @@ The image shows a visualization of target-side sentence embedding (embedding of 
 
 We want to prove that the superior performance and efficient training of our PLM-based classifier come from the fact that PLM catches certain named entities in the input sentence that are frequently used in the corresponding language. Thus we visualize the attention weight
 
-<img src="attention_sample.png" width="600px">
+<img src="attention_sample.png" width="1200px">
 
 The annotated item "中新网" is the name of a Chinese media, which helps the model to figure out that the original language of the sentence is Chinese.
 
