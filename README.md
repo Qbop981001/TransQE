@@ -63,3 +63,11 @@ For sentence-level HTER:
 We cannot observe much difference between three types of bitext, since UN-parallel corpus is composed of undirectional data (official UN documents aligned across languages).
 
 However, aligned bietxt like UN-parallel is rare considering the total amount of parallel data used in QE data augmentation. Thus, we still suggest to differentiate translation direction in QE data augmentation.
+
+### Visualization of target-side sentence embeds 
+
+Following reviwer#2's advice, we randomly sample 100 sentence pairs from WiKiMatrix corpus and **manually check** the translation direction. To ensure reliability of our annotation, we only annotate sentence pairs of explicit direction for which we can find the source. We found **28** source original sentence pairs, part of them are from the Bible, or the Koran. We found **36** target-original sentence pairs, **34** of them are classical Chinese text, and **26** of them are excerpts from "The Romance of the Three Kingdoms", a novel of the Ming Dynasty in China. We leave rest of the sentence pair as "no explicit translation direction" and do not visiualize their target-side sentence embedding.
+
+<img src="sample-raw-human.jpg" width="100px">
+
+
